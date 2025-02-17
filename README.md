@@ -74,7 +74,7 @@ This tool is intended for:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting PRs.
+We welcome contributions!
 
 ## 📜 License
 
