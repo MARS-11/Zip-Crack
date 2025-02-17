@@ -34,7 +34,7 @@ def print_banner():
     print(COLORS["HEADER"] + banner)
     print(COLORS["HEADER"] + "═" * os.get_terminal_size().columns)
     print(f"{COLORS['INFO']} Advanced Archive Password Recovery Tool")
-    print(f"{COLORS['INFO']} Version 2.3 | Developed by t.me/MasterX_0\n")
+    print(f"{COLORS['INFO']} Version 1.3 | Developed by t.me/MasterX_0\n")
 
 def get_input(prompt):
     return input(f"{COLORS['INPUT']}[?] {prompt}: {COLORS['RESET']}")
