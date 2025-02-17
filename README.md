@@ -5,7 +5,7 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Repo Size](https://img.shields.io/github/repo-size/MARS-11/Zip-Crack)]()
 
-![MARS-11 Zip-Crack Screenshot](screenshot.jpg)
+![MARS-11 Zip-Crack Screenshot](screenshot.png)
 
 **MARS-11 Zip-Crack** is a high-performance, multi-threaded ZIP archive password recovery tool designed for ethical penetration testing and digital forensics. Built with Python 3, it combines advanced cryptographic checks with an intuitive terminal interface.
 
