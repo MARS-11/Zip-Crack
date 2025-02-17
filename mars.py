@@ -1,2 +1,196 @@
-import base64
-exec(base64.b64decode("ZnJvbSB6aXBmaWxlIGltcG9ydCBaaXBGaWxlDQppbXBvcnQgc3lzLG9zLHRpbWUNCmZyb20gdGltZSBpbXBvcnQgc2xlZXANCmltcG9ydCB0cWRtDQppbXBvcnQgY29sb3JhbWENCmltcG9ydCBweWZpZ2xldA0KaW1wb3J0IHJhbmRvbQ0KDQpDTEVBUiA9ICdjbHMnIGlmIG9zLm5hbWUgPT0gJ250JyBlbHNlICdjbGVhcicNCg0KQkxVID0gY29sb3JhbWEuU3R5bGUuQlJJR0hUICsgY29sb3JhbWEuRm9yZS5CTFVFDQpDWUEgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLkNZQU4NCkdSRSA9IGNvbG9yYW1hLlN0eWxlLkJSSUdIVCArIGNvbG9yYW1hLkZvcmUuR1JFRU4NCllFTCA9IGNvbG9yYW1hLlN0eWxlLkJSSUdIVCArIGNvbG9yYW1hLkZvcmUuWUVMTE9XDQpSRUQgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLlJFRA0KTUFHID0gY29sb3JhbWEuU3R5bGUuQlJJR0hUICsgY29sb3JhbWEuRm9yZS5NQUdFTlRBDQpMSVlFTCA9IGNvbG9yYW1hLlN0eWxlLkJSSUdIVCArIGNvbG9yYW1hLkZvcmUuTElHSFRZRUxMT1dfRVgNCkxJUkVEID0gY29sb3JhbWEuU3R5bGUuQlJJR0hUICsgY29sb3JhbWEuRm9yZS5MSUdIVFJFRF9FWA0KTElNQUcgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLkxJR0hUTUFHRU5UQV9FWA0KTElCTFUgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLkxJR0hUQkxVRV9FWA0KTElDWUEgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLkxJR0hUQ1lBTl9FWA0KTElHUkUgPSBjb2xvcmFtYS5TdHlsZS5CUklHSFQgKyBjb2xvcmFtYS5Gb3JlLkxJR0hUR1JFRU5fRVgNCg0KQ09MT1JTID0gQkxVLCBDWUEsIEdSRSwgWUVMLCBSRUQsIE1BRywgTElZRUwsIExJUkVELCBMSU1BRywgTElCTFUsIExJQ1lBLCBMSUdSRQ0KRk9OVFMgPSAnYmFzaWMnLCAnbzgnLCAnY29zbWljJywgJ2dyYWZmaXRpJywgJ2NodW5reScsICdlcGljJywgJ3BvaXNvbicsICdkb29tJywgJ2F2YXRhcicNCg0KY29sb3JhbWEuaW5pdChhdXRvcmVzZXQ9VHJ1ZSkNCg0KYXJndj1GYWxzZQ0KDQpjbyA9IHJhbmRvbS5jaG9pY2UoQ09MT1JTKQ0KDQpkbG9nbyA9IGNvICsiIiINCg0KDQogICAgICAgIOKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVl+KWiOKWiOKVl+KWiOKWiOKWiOKWiOKWiOKWiOKVlyDigIPigIMg4paI4paI4paI4paI4paI4pWXIOKWiOKWiOKWiOKWiOKWiOKWiOKVlyAg4paI4paI4paI4paI4paI4pWXICDilojilojilojilojilojilZcg4paI4paI4pWXICDilojilojilZcNCiAgICAgICAg4pWa4pWQ4pWQ4pWQ4pWQ4paI4paI4pWR4paI4paI4pWR4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4oCD4oCD4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4paI4paI4pWU4pWQ4pWQ4paI4paI4pWX4paI4paI4pWRIOKWiOKWiOKVlOKVnQ0KICAgICAgICAgIOKWiOKWiOKWiOKVlOKVkOKVneKWiOKWiOKVkeKWiOKWiOKWiOKWiOKWiOKWiOKVlOKVneKAg+KAg+KWiOKWiOKVkSAg4pWa4pWQ4pWd4paI4paI4paI4paI4paI4paI4pWU4pWd4paI4paI4paI4paI4paI4paI4paI4pWR4paI4paI4pWRICDilZrilZDilZ3ilojilojilojilojilojilZDilZ0NCiAgICAgICAg4paI4paI4pWU4pWQ4pWQ4pWdICDilojilojilZHilojilojilZTilZDilZDilZDilZ0g4oCD4oCD4paI4paI4pWRICDilojilojilZfilojilojilZTilZDilZDilojilojilZfilojilojilZTilZDilZDilojilojilZHilojilojilZEgIOKWiOKWiOKVl+KWiOKWiOKVlOKVkOKWiOKWiOKVlw0KICAgICAgICDilojilojilojilojilojilojilojilZfilojilojilZHilojilojilZEgICAgIOKAg+KAg+KVmuKWiOKWiOKWiOKWiOKWiOKVlOKVneKWiOKWiOKVkSAg4paI4paI4pWR4paI4paI4pWRICDilojilojilZHilZrilojilojilojilojilojilZTilZ3ilojilojilZEg4pWa4paI4paI4pWXDQogICAgICAgIOKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVneKVmuKVkOKVneKVmuKVkOKVnSAgICAgICAg4pWa4pWQ4pWQ4pWQ4pWQ4pWdIOKVmuKVkOKVnSAg4pWa4pWQ4pWd4pWa4pWQ4pWdICDilZrilZDilZ0g4pWa4pWQ4pWQ4pWQ4pWQ4pWdIOKVmuKVkOKVnSAg4pWa4pWQ4pWdDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcMDMzWzE7MzJtdC5tZS90ZWFtX21hcnNfMTENCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcMDMzWzE7MzNtQE1hc3RlclhfMA0KDQoiIiINCg0KZGVmIG5leHQoKToNCiAgICBwcmludCAoKQ0KICAgIHByaW50IChkbG9nbykNCiAgICBwcmludCAoKQ0KICAgIG94emlwID0gaW5wdXQoIlwwMzNbMDBtWypdIEVudGVyIFppcCBmaWxlIE5hbWUgOiAiKQ0KICAgIHByaW50ICgpDQogICAgemlwPVppcEZpbGUob3h6aXAsInIiKQ0KICAgIGxpc3QgPSBpbnB1dCgiXDAzM1swMG1bKl0gRW50ZXIgcGFzc3dvcmQgTGlzdCBOYW1lIDogIikNCiAgICB0cnk6DQogICAgICAgIHdvcmQ9b3BlbihsaXN0LCJyYiIpDQogICAgICAgIGNvdW50PW9wZW4obGlzdCwiciIpDQogICAgZXhjZXB0Og0KICAgICAgICBwcmludCAoKQ0KICAgICAgICBwcmludCgiXG4gXDAzM1sxOzMxbUVSUk9SIDogXG4gXG4gIFwwMzNbMDBtIFsqXSBVbmFibGUgdG8gbG9jYXRlIHRoZSBwYXNzd29yZCBsaXN0ISAiKQ0KICAgICAgICBzbGVlcCgyMCkNCiAgICAgICAgbWFpbigpDQogICAgbGluZT1jb3VudC5yZWFkbGluZSgpDQogICAgYz0wDQogICAgd2hpbGUobGluZSk6DQogICAgICAgIHBhc3N3PXdvcmQucmVhZGxpbmUoKQ0KICAgICAgICB0cnk6DQogICAgICAgICAgICBwcmludCAoKQ0KICAgICAgICAgICAgemlwLmV4dHJhY3RhbGwocGF0aD0iZXh0cmFjdCIscHdkPXBhc3N3LnN0cmlwKCkpDQogICAgICAgICAgICBwcmludCgiXDAzM1swMG1bKl1cMDMzWzE7MzNtIFBhc3N3b3JkIFwwMzNbMDBtPVwwMzNbMTszMm0ge30iLmZvcm1hdChwYXNzdy5kZWNvZGUoKSkpDQogICAgICAgICAgICBwcmludCAoKQ0KICAgICAgICAgICAgc2xlZXAoNSkNCiAgICAgICAgICAgIHo9aW5wdXQoIlwwMzNbMDBtWypdXDAzM1sxOzM0bSBQcmVzcyBFbnRlciB0byBFeGl0Li4uIikNCiAgICAgICAgICAgIHByaW50ICgpDQogICAgICAgICAgICBjKz0xDQogICAgICAgICAgICBicmVhaw0KICAgICAgICBleGNlcHQ6DQogICAgICAgICAgICBwcmludChwYXNzdy5kZWNvZGUoKSkNCiAgICBpZiBjPT0wIDoNCiAgICAgICAgcHJpbnQoIlwwMzNbMTszMW1bKl0gXDAzM1sxOzMxbXBhc3N3b3JkIG5vdCBmb3VuZCEgIikNCiAgICAgICAgc2xlZXAoNSkNCiAgICAgICAgcD1pbnB1dCgiXDAzM1swMG1bKl1cMDMzWzE7MzRtIFByZXNzIEVudGVyIHRvIEV4aXQuLi4iKQ0KICAgIGVsc2U6DQogICAgICAgIHBhc3MNCg0KDQpkZWYgbWFpbigpOg0KICAgICNzbGVlcCgyKQ0KICAgIGZvbnQgPSByYW5kb20uY2hvaWNlKEZPTlRTKQ0KICAgIGNvbG9yMSA9IHJhbmRvbS5jaG9pY2UoQ09MT1JTKQ0KICAgIGNvbG9yMiA9IHJhbmRvbS5jaG9pY2UoQ09MT1JTKQ0KICAgIHdoaWxlIGNvbG9yMSA9PSBjb2xvcjI6DQogICAgICAgIGNvbG9yMiA9IHJhbmRvbS5jaG9pY2UoQ09MT1JTKQ0KICAgIHByaW50KGNvbG9yMSArICctJyAqIG9zLmdldF90ZXJtaW5hbF9zaXplKCkuY29sdW1ucywgZW5kPSdcbicqMikNCiAgICBwcmludChjb2xvcjIgKyBweWZpZ2xldC5maWdsZXRfZm9ybWF0KA0KICAgICAgICAnTUFSUy0xMScsDQogICAgICAgIGZvbnQ9Zm9udCwNCiAgICAgICAganVzdGlmeT0nY2VudGVyJywNCiAgICAgICAgd2lkdGg9b3MuZ2V0X3Rlcm1pbmFsX3NpemUoKS5jb2x1bW5zKSwNCiAgICAgICAgZW5kPScnDQogICAgICAgICkNCiAgICBwcmludChjb2xvcjEgKyAnLScgKiBvcy5nZXRfdGVybWluYWxfc2l6ZSgpLmNvbHVtbnMsIGVuZD0nXG4nKjIpDQogICAgcHJpbnQgKCkNCiAgICBtYXJzID0gaW5wdXQoIlwwMzNbMDBtWypdXDAzM1sxOzM0bSBQcmVzcyBFbnRlci4uLiIpDQogICAgb3Muc3lzdGVtKENMRUFSKQ0KICAgIG5leHQoKQ0KDQptYWluKCk="))
+from zipfile import ZipFile, BadZipFile
+import zlib
+import sys, os, time
+from tqdm import tqdm
+import colorama
+import pyfiglet
+import random
+from datetime import datetime, timedelta
+import multiprocessing as mp
+from io import BytesIO
+import queue
+
+colorama.init(autoreset=True)
+
+COLORS = {
+    "HEADER": colorama.Fore.LIGHTMAGENTA_EX,
+    "INPUT": colorama.Fore.LIGHTCYAN_EX,
+    "INFO": colorama.Fore.LIGHTBLUE_EX,
+    "SUCCESS": colorama.Fore.LIGHTGREEN_EX,
+    "FAIL": colorama.Fore.LIGHTRED_EX,
+    "WARNING": colorama.Fore.LIGHTYELLOW_EX,
+    "RESET": colorama.Style.RESET_ALL
+}
+
+FONTS = ['doom', 'epic', 'avatar', 'chunky', 'graffiti']
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def print_banner():
+    clear_screen()
+    font = random.choice(FONTS)
+    banner = pyfiglet.figlet_format("MARS-11", font=font, width=os.get_terminal_size().columns)
+    print(COLORS["HEADER"] + banner)
+    print(COLORS["HEADER"] + "═" * os.get_terminal_size().columns)
+    print(f"{COLORS['INFO']} Advanced Archive Password Recovery Tool")
+    print(f"{COLORS['INFO']} Version 2.3 | Developed by t.me/MasterX_0\n")
+
+def get_input(prompt):
+    return input(f"{COLORS['INPUT']}[?] {prompt}: {COLORS['RESET']}")
+
+def worker_process(zip_data, password_chunk, progress_queue, result_queue):
+    try:
+        zip_file = ZipFile(BytesIO(zip_data))
+        encrypted_files = [f for f in zip_file.filelist if f.flag_bits & 0x1 and f.CRC != 0]
+        if not encrypted_files:
+            result_queue.put(ValueError("No encrypted files"))
+            return
+        target_file = encrypted_files[0]
+        count = 0
+
+        for pwd in password_chunk:
+            count += 1
+            try:
+                with zip_file.open(target_file, pwd=pwd) as f:
+                    data = f.read(1024)
+                    crc = zlib.crc32(data)
+                    while True:
+                        chunk = f.read(4096)
+                        if not chunk: break
+                        crc = zlib.crc32(chunk, crc)
+                    if crc != target_file.CRC:
+                        raise RuntimeError("CRC mismatch")
+
+                result_queue.put((pwd, count))
+                return
+            except:
+                pass
+            if count % 100 == 0:
+                progress_queue.put(count)
+                count = 0
+        if count > 0:
+            progress_queue.put(count)
+    except Exception as e:
+        result_queue.put(e)
+
+def crack_zip(zip_path, wordlist_path):
+    try:
+        with open(zip_path, 'rb') as f:
+            zip_data = f.read()
+
+        with ZipFile(BytesIO(zip_data)) as zip_file:
+            encrypted_files = [f for f in zip_file.filelist if f.flag_bits & 0x1]
+            print (f"{COLORS['INFO']}[*] Protected file: {COLORS['WARNING']}{zip_path}")
+            print (f"{COLORS['INFO']}[*] Encrypted files: {COLORS['WARNING']}{len(encrypted_files)}")
+
+        with open(wordlist_path, 'r', errors='ignore') as f:
+            passwords = [line.strip() for line in f]
+
+        encoded_passwords = []
+        invalid_count = 0
+        for p in passwords:
+            try:
+                encoded_passwords.append(p.encode('utf-8', 'replace'))
+            except:
+                invalid_count += 1
+
+        print (f"{COLORS['INFO']}[*] Total passwords: {len(passwords):,}")
+        print (f"{COLORS['INFO']}[*] Valid passwords: {len(encoded_passwords):,}")
+        print ()
+
+        num_workers = mp.cpu_count() * 6
+        chunk_size = len(encoded_passwords) // num_workers
+        chunks = [encoded_passwords[i*chunk_size:(i+1)*chunk_size] for i in range(num_workers)]
+        remainder = len(encoded_passwords) % num_workers
+        if remainder:
+            for i in range(remainder):
+                chunks[i].append(encoded_passwords[chunk_size*num_workers + i])
+
+        result_queue = mp.Queue()
+        progress_queue = mp.Queue()
+        workers = [mp.Process(target=worker_process, args=(zip_data, chunk, progress_queue, result_queue)) 
+                  for chunk in chunks]
+
+        for w in workers:
+            w.start()
+
+        start_time = time.time()
+        found = False
+        total = len(encoded_passwords)
+        tested_count = 0
+
+        with tqdm(total=total, unit='pass',
+                 bar_format=f"{COLORS['INFO']} {{l_bar}}{COLORS['HEADER']}{{bar}}{COLORS['INFO']} {{n_fmt}}/{{total_fmt}}") as pbar:
+            while not found and any(w.is_alive() for w in workers):
+                try:
+                    result = result_queue.get_nowait()
+                    if isinstance(result, tuple):
+                        password, count = result
+                        tested_count += count
+                        found = True
+                        pbar.update(count)
+                    elif isinstance(result, Exception):
+                        raise result
+                except queue.Empty:
+                    pass
+
+                try:
+                    while True:
+                        cnt = progress_queue.get_nowait()
+                        tested_count += cnt
+                        pbar.update(cnt)
+                except queue.Empty:
+                    pass
+
+                time.sleep(0.01)
+
+            if found:
+                for w in workers:
+                    if w.is_alive():
+                        w.terminate()
+
+                try:
+                    elapsed = str(timedelta(seconds=int(time.time() - start_time))).split('.')[0]
+                    print(f"\n{COLORS['SUCCESS']}╒══════════════════════════════════════╕")
+                    print(f"{COLORS['SUCCESS']}│     PASSWORD FOUND SUCCESSFULLY!     │")
+                    print(f"{COLORS['SUCCESS']}╘══════════════════════════════════════╛")
+                    print(f"\n{COLORS['WARNING']}╭──────────────────────────────────────╮")
+                    print(f"{COLORS['WARNING']}│  Password: {COLORS['SUCCESS']}{password.decode().ljust(24)} {COLORS['WARNING']} ")
+                    print(f"{COLORS['WARNING']}│  Tested: {COLORS['INFO']}{tested_count}/{total} passwords".ljust(35) + f"{COLORS['WARNING']} ")
+                    print(f"{COLORS['WARNING']}│  Time elapsed: {COLORS['INFO']}{elapsed}".ljust(35) + f"{COLORS['WARNING']} ")
+                    print(f"{COLORS['WARNING']}╰──────────────────────────────────────╯\n")
+                    return True
+                except Exception as e:
+                    print(f"{COLORS['FAIL']}[!] Verification failed: {str(e)}")
+                    return False
+            else:
+                print(f"\n{COLORS['FAIL']}╒══════════════════════════════════════╕")
+                print(f"{COLORS['FAIL']}│      PASSWORD NOT FOUND!             │")
+                print(f"{COLORS['FAIL']}╘══════════════════════════════════════╛")
+                return False
+
+    except Exception as e:
+        print(f"\n{COLORS['FAIL']}[!] Error: {str(e)}")
+        return False
+
+def main():
+    print_banner()
+    zip_path = get_input("Enter ZIP file path")
+    wordlist_path = get_input("Enter password list path")
+
+    if not os.path.exists(zip_path):
+        print (f"{COLORS['FAIL']}[!] ZIP file not found!")
+        return
+    if not os.path.exists(wordlist_path):
+        print (f"{COLORS['FAIL']}[!] Wordlist file not found!")
+        return
+
+    crack_zip(zip_path, wordlist_path)
+
+    input(f"\n{COLORS['INFO']}Press enter to exit...")
+    print ()
+
+if __name__ == "__main__":
+    mp.freeze_support()
+    main()
